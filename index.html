@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/assets/logofavicon.jpg"
+      type="image/x-icon"
+    />
+    <title>Street website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="left-section">
+      <div class="title">
+        <h2>WELCOME TO</h2>
+        <h2>STEEL CITY</h2>
+      </div>
+      <div class="second">
+        <span><a href="#">TERMS OF USE</a></span>
+        <span><a href="#">PRIVACY POLICY</a></span>
+      </div>
+    </section>
+    <section class="right-section">
+      <div class="right-cont">
+        <div class="form-div">
+          <form>
+            <label for="name"
+              ><span>FULL NAME</span>
+              <input type="text" id="name" />
+            </label>
+            <label for="email"
+              ><span>EMAIL ADDRESS</span>
+              <input type="email" id="email" />
+            </label>
+            <label for="password"
+              ><span>PASSWORD</span>
+              <input type="password" id="password" />
+            </label>
+          </form>
+          <div class="info">
+            <p>I am over 18 years of age</p>
+
+            <!-- toggle component -->
+            <div class="toggle-div">
+              <span>YES</span>
+              <label class="switch">
+                <p style="display: inline-block"></p>
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+              <span>NO</span>
+            </div>
+            <button class="sign-up-btn">SIGN ME UP</button>
+          </div>
+        </div>
+        <div class="close div">
+          <img
+            class="svgclose"
+            src="./assets/x-solid.svg"
+            alt=""
+            width="10px"
+          />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
